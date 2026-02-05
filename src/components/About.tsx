@@ -3,7 +3,7 @@ import React from 'react';
 const About: React.FC = () => {
     const skills = [
         'React', 'TypeScript', 'Tailwind CSS', 'Node.js',
-        'Express', 'MongoDB', 'PostgreSQL', 'Git', 'Docker'
+        'Express', 'MongoDB', 'Docker'
     ];
 
     return (
@@ -16,15 +16,15 @@ const About: React.FC = () => {
                 <div className="flex flex-col md:flex-row items-center gap-12">
                     <div className="md:w-1/2">
                         <img
-                            src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                            alt="Developer working"
+                            src="../src/images/leehogi.jpg"
+                            alt="Developer Profile"
                             className="rounded-lg shadow-xl shadow-indigo-500/20 w-full object-cover aspect-video md:aspect-square"
                         />
                     </div>
 
                     <div className="md:w-1/2 space-y-6">
                         <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-                            I am a dedicated software developer with a passion for creating elegant, efficient, and user-centric digital solutions. With a strong foundation in modern web technologies, I love turning complex problems into simple, beautiful code.
+                            "I am a junior majoring in Software at Chungbuk National University. I have no hesitation in learning new fields and always strive to explore topics in depth."
                         </p>
                         <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
                             When I'm not coding, you can find me exploring new technologies, contributing to open source, or enjoying a good cup of coffee.

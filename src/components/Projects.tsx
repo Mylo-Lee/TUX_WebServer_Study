@@ -3,29 +3,29 @@ import React from 'react';
 const Projects: React.FC = () => {
     const projects = [
         {
-            title: "E-Commerce Dashboard",
+            title: "Reneevontable Website Development",
             description: "A comprehensive dashboard for managing products, orders, and analytics. Built with React and Recharts.",
             tags: ["React", "Tailwind", "Recharts"],
-            image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+            image: "../src/images/Reneevontable.png",
             link: "#",
-            github: "#"
+            github: "https://github.com/Mylo-Lee/Reneevon_Web"
         },
         {
-            title: "Social Media App",
+            title: "National Assembly in our hand",
             description: "A real-time social platform with chat, posts, and notifications. Features optimistic UI updates.",
             tags: ["Next.js", "Prisma", "Socket.io"],
-            image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+            image: "../src/images/Operis.png",
             link: "#",
-            github: "#"
+            github: "https://github.com/Mylo-Lee/Operis-project"
         },
-        {
+        /*{
             title: "Task Management Tool",
             description: "Collaborative task manager with drag-and-drop kanban boards and team workspaces.",
             tags: ["TypeScript", "Redux", "DND"],
             image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
             link: "#",
             github: "#"
-        }
+        }*/
     ];
 
     return (
@@ -59,10 +59,10 @@ const Projects: React.FC = () => {
                                 </div>
 
                                 <div className="flex gap-4 pt-4 border-t border-slate-100 dark:border-slate-800">
-                                    <a href={project.link} className="flex-1 text-center py-2 rounded-lg bg-indigo-600 text-white text-sm font-medium hover:bg-indigo-700 transition-colors">
+                                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="flex-1 text-center py-2 rounded-lg bg-indigo-600 text-white text-sm font-medium hover:bg-indigo-700 transition-colors">
                                         Live Demo
                                     </a>
-                                    <a href={project.github} className="flex-1 text-center py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 text-sm font-medium hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">
+                                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex-1 text-center py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 text-sm font-medium hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">
                                         GitHub
                                     </a>
                                 </div>
