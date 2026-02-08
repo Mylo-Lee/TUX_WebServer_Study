@@ -4,16 +4,16 @@ const Projects: React.FC = () => {
     const projects = [
         {
             title: "Reneevontable Website Development",
-            description: "A comprehensive dashboard for managing products, orders, and analytics. Built with React and Recharts.",
-            tags: ["React", "Tailwind", "Recharts"],
+            description: "Reneevontable Catering Services Website built with HTML, CSS and JavaScript",
+            tags: ["HTML", "CSS", "JavaScript"],
             image: "../src/images/Reneevontable.png",
             link: "#",
             github: "https://github.com/Mylo-Lee/Reneevon_Web"
         },
         {
             title: "National Assembly in our hand",
-            description: "A real-time social platform with chat, posts, and notifications. Features optimistic UI updates.",
-            tags: ["Next.js", "Prisma", "Socket.io"],
+            description: "A real-time social platform with chat, posts, and notifications. About Korea national assembly",
+            tags: ["Next.js", "React", "vite"],
             image: "../src/images/Operis.png",
             link: "#",
             github: "https://github.com/Mylo-Lee/Operis-project"
